@@ -53,5 +53,6 @@ while (<>) {
     tr/a-z/ /cs;
     chop;
     print $_;
+    print "\n";
   }
 }
